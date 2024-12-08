@@ -13,7 +13,7 @@ cargo build
 - to run the binary 
 
 ```
-./target/debug/rust-samtools-generateid ./sample-files/alignreads-metagenomics.sam
+./rust-samtools-generateid ./sample-files/Col0_C1.100k.sam
 
 ```
 Gaurav Sablok

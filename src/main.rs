@@ -42,7 +42,7 @@ fn main() {
   }
   let mut limit:Vec<Limit> = Vec::new();
   for i in limit_lines.iter(){
-    let mutable = i.split(" ").filter(|x| !x.is_empty()).collect::<Vec<_>>();
+    let mutable = i.split("\t").filter(|x| !x.is_empty()).collect::<Vec<_>>();
     if mutable.is_empty() {
       continue
     } else {
